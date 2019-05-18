@@ -3,12 +3,12 @@
 
 ##### Docker-Container wurde "nur" auf Synology DSM 6.2 getestet, sollte aber auch woanders laufen.
 
-###Credits:
+### Credits:
 * MediaElch [http://www.kvibes.de/mediaelch/]()  
 * Vorlage Docker-Container [https://github.com/odon/docker-mediaelch]()  
 * Base-Image [https://github.com/jlesage/docker-baseimage-gui]()  
 
-### Ports<br>
+### Ports  
 HTTP (noVNC) Port 5800  
 VNC	 Port 5900  
 
@@ -21,6 +21,6 @@ Der Benutzer sollte unter "*USER_ID*" und "*GROUP_ID*" an die Synology angepasst
 Mit "id *username*" kann das ganz einfach auf der Synology ausgelesen werden.  
 
 ### /home/mediaelch/advancedsettings.xml<br>
-In dieser Datei wurden einige Einstellungen vorgenommen. Auf eingene Wünsche anpassen!!!  
+In dieser Datei wurden einige Einstellungen vorgenommen. Auf eingene WÃ¼nsche anpassen!!!  
 Beim Systemstart wird diese Datei nach /config/xdg/data/kvibes/MediaElch kopiert.  
-Also eigene Änderungen am besten in /home/mediaelch/advancedsettings.xml machen und den Container neu starten.  
+Also eigene Ã„nderungen am besten in /home/mediaelch/advancedsettings.xml machen und den Container neu starten.  
